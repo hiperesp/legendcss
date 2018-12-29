@@ -1,0 +1,13 @@
+@font-face {
+	font-family: 'Timeless';
+		src: url('Timeless.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Timeless-Bold';
+		src: url('Timeless-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
