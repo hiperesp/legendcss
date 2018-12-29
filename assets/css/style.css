@@ -1,3 +1,48 @@
+/*
+REMOVA O BLOCO DE CÓDIGO A BAIXO CASO VOCÊ NÃO TENHA OS DIREITOS DA FONTE BEAUFORT BOLD.
+*/
+/*
+INÍCIO DO BLOCO DE CÓDIGO:
+*/
+
+
+
+
+@font-face{
+  font-family:"BeaufortBold";
+  src:url("https://ymfdt38237.i.lithium.com/html/assets/BeaufortforLOL-Bold.eot");
+  src:url("https://ymfdt38237.i.lithium.com/html/assets/BeaufortforLOL-Bold.eot?#iefix") format("embedded-opentype")
+    ,url("https://ymfdt38237.i.lithium.com/html/assets/BeaufortforLOL-Bold.ttf") format("truetype")
+    ,url("https://ymfdt38237.i.lithium.com/html/assets/BeaufortforLOL-Bold.woff") format("woff")
+    ,url("https://ymfdt38237.i.lithium.com/html/assets/BeaufortforLOL-Bold.svg#BeaufortforLOL-Bold") format("svg");
+  font-style:normal;font-weight:700;
+}
+@font-face{
+  font-family:"BeaufortRegular";
+  src:url("https://ymfdt38237.i.lithium.com/html/assets/BeaufortforLOL-Regular.eot");
+  src:url("https://ymfdt38237.i.lithium.com/html/assets/BeaufortforLOL-Regular.eot?#iefix") format("embedded-opentype")
+    ,url("https://ymfdt38237.i.lithium.com/html/assets/BeaufortforLOL-Regular.ttf") format("truetype")
+    ,url("https://ymfdt38237.i.lithium.com/html/assets/BeaufortforLOL-Regular.woff") format("woff")
+    ,url("https://ymfdt38237.i.lithium.com/html/assets/BeaufortforLOL-Regular.svg#BeaufortforLOL-Regular") format("svg");
+  font-style:normal;
+  font-weight:400;
+}
+@font-face{
+  font-family:"BeaufortMedium";
+  src:url("https://ymfdt38237.i.lithium.com/html/assets/beaufortforlol-medium.eot");
+  src:url("https://ymfdt38237.i.lithium.com/html/assets/beaufortforlol-medium.eot?#iefix") format("embedded-opentype")
+    ,url("https://ymfdt38237.i.lithium.com/html/assets/beaufortforlol-medium.ttf") format("truetype")
+    ,url("https://ymfdt38237.i.lithium.com/html/assets/beaufortforlol-medium.woff") format("woff")
+    ,url("https://ymfdt38237.i.lithium.com/html/assets/beaufortforlol-medium.svg#BeaufortforLOL-Regular") format("svg");
+  font-style:normal;
+  font-weight:600;
+}
+
+
+/*
+FIM DO BLOCO DE CÓDIGO;
+*/
+
 
 @import url('../font/Timeless-Normal/font.css');
 
