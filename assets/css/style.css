@@ -1,48 +1,36 @@
 /*
-REMOVA O BLOCO DE CÓDIGO A BAIXO CASO VOCÊ NÃO TENHA OS DIREITOS DA FONTE BEAUFORT BOLD.
+REMOVA O 1º BLOCO DE CÓDIGO A BAIXO CASO VOCÊ NÃO TENHA OS DIREITOS DA FONTE BEAUFORT FOR LOL.
 */
-/*
-INÍCIO DO BLOCO DE CÓDIGO:
-*/
-
-
-
-
-@font-face{
-  font-family:"BeaufortBold";
-  src:url("https://ymfdt38237.i.lithium.com/html/assets/BeaufortforLOL-Bold.eot");
-  src:url("https://ymfdt38237.i.lithium.com/html/assets/BeaufortforLOL-Bold.eot?#iefix") format("embedded-opentype")
-    ,url("https://ymfdt38237.i.lithium.com/html/assets/BeaufortforLOL-Bold.ttf") format("truetype")
-    ,url("https://ymfdt38237.i.lithium.com/html/assets/BeaufortforLOL-Bold.woff") format("woff")
-    ,url("https://ymfdt38237.i.lithium.com/html/assets/BeaufortforLOL-Bold.svg#BeaufortforLOL-Bold") format("svg");
-  font-style:normal;font-weight:700;
-}
-@font-face{
-  font-family:"BeaufortRegular";
-  src:url("https://ymfdt38237.i.lithium.com/html/assets/BeaufortforLOL-Regular.eot");
-  src:url("https://ymfdt38237.i.lithium.com/html/assets/BeaufortforLOL-Regular.eot?#iefix") format("embedded-opentype")
-    ,url("https://ymfdt38237.i.lithium.com/html/assets/BeaufortforLOL-Regular.ttf") format("truetype")
-    ,url("https://ymfdt38237.i.lithium.com/html/assets/BeaufortforLOL-Regular.woff") format("woff")
-    ,url("https://ymfdt38237.i.lithium.com/html/assets/BeaufortforLOL-Regular.svg#BeaufortforLOL-Regular") format("svg");
-  font-style:normal;
-  font-weight:400;
-}
-@font-face{
-  font-family:"BeaufortMedium";
-  src:url("https://ymfdt38237.i.lithium.com/html/assets/beaufortforlol-medium.eot");
-  src:url("https://ymfdt38237.i.lithium.com/html/assets/beaufortforlol-medium.eot?#iefix") format("embedded-opentype")
-    ,url("https://ymfdt38237.i.lithium.com/html/assets/beaufortforlol-medium.ttf") format("truetype")
-    ,url("https://ymfdt38237.i.lithium.com/html/assets/beaufortforlol-medium.woff") format("woff")
-    ,url("https://ymfdt38237.i.lithium.com/html/assets/beaufortforlol-medium.svg#BeaufortforLOL-Regular") format("svg");
-  font-style:normal;
-  font-weight:600;
-}
-
 
 /*
-FIM DO BLOCO DE CÓDIGO;
+INÍCIO DO 1º BLOCO DE CÓDIGO:
 */
-
+@font-face{
+  font-family:BeaufortLoL;
+  src:url(https://s.lolstatic.com/awesomefonts/1.0.0/Fonts/BeaufortforLOL-Regular.eot?#iefix) format("embedded-opentype"),
+      url(https://s.lolstatic.com/awesomefonts/1.0.0/Fonts/BeaufortforLOL-Regular.woff) format("woff"),
+      url(https://s.lolstatic.com/awesomefonts/1.0.0/Fonts/BeaufortforLOL-Regular.ttf) format("truetype"),
+      url(https://s.lolstatic.com/awesomefonts/1.0.0/Fonts/BeaufortforLOL-Regular.svg#svgFontName) format("svg");
+}
+@font-face{
+  font-family:BeaufortLoL;
+  src:url(https://s.lolstatic.com/awesomefonts/1.0.0/Fonts/BeaufortforLOL-Bold.eot?#iefix) format("embedded-opentype"),
+      url(https://s.lolstatic.com/awesomefonts/1.0.0/Fonts/BeaufortforLOL-Bold.woff) format("woff"),
+      url(https://s.lolstatic.com/awesomefonts/1.0.0/Fonts/BeaufortforLOL-Bold.ttf) format("truetype"),
+      url(https://s.lolstatic.com/awesomefonts/1.0.0/Fonts/BeaufortforLOL-Bold.svg#svgFontName) format("svg");
+  font-weight:700;
+}
+@font-face{
+  font-family:BeaufortLoL;
+  src:url(https://s.lolstatic.com/awesomefonts/1.0.0/Fonts/BeaufortforLOL-Italic.eot?#iefix) format("embedded-opentype"),
+      url(https://s.lolstatic.com/awesomefonts/1.0.0/Fonts/BeaufortforLOL-Italic.woff) format("woff"),
+      url(https://s.lolstatic.com/awesomefonts/1.0.0/Fonts/BeaufortforLOL-Italic.ttf) format("truetype"),
+      url(https://s.lolstatic.com/awesomefonts/1.0.0/Fonts/BeaufortforLOL-Italic.svg#svgFontName) format("svg");
+  font-style:italic;
+}
+/*
+FIM DO 1º BLOCO DE CÓDIGO;
+*/
 
 @import url('../font/Timeless-Normal/font.css');
 
@@ -51,12 +39,9 @@ FIM DO BLOCO DE CÓDIGO;
   padding: 0;
 }
 body {
-  font-family: 'BeaufortRegular', 'Timeless', 'BeaufortBold', 'Timeless-Bold', serif;
+  font-family: 'BeaufortLoL', 'Timeless', serif;
   background-color: #0a0e11;
-  background-image: url('../img/background.png');
-  background-position: 100% 52px;
-  background-size: contain;
-  background-repeat: no-repeat;
+  color: #f5f1ee;
 }
 header,
 .header {
@@ -71,7 +56,8 @@ header,
   font-size: 14px;
   position: sticky;
   top: 0;
-  font-family: 'BeaufortBold', 'Timeless-Bold';
+  font-family: 'BeaufortLoL', 'Timeless-Bold';
+  font-weight: bold;
 }
 header *,
 .header * {
@@ -162,7 +148,6 @@ a {
   border-color: #1bc9ca;
   background-image: linear-gradient(#252c32, #25556d);
   color: #c3eaec;
-  transition: all 0.5s;
 }
 .hamburger-menu {
   display: inline-block;
@@ -197,24 +182,32 @@ a {
   -webkit-transform: rotate(45deg) translate(-8px, -7px);
   transform: rotate(45deg) translate(-8px, -7px);
 }
-main {
+main,
+.main {
   margin-left: auto;
   margin-right: auto;
-  max-width: calc(1024px - 40px);
+  max-width: calc(1150px - 40px);
   padding: 20px 10px;
-  overflow: hidden;
+  overflow: visible;
   color: #ffffff;
   font-size: 1em;
+  background-image: url('../img/background.png');
+  background-position: 100% 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
-main * {
+main *,
+.main * {
   vertical-align: top;
 }
-main a {
+main a,
+.main a {
   color: #81dafd;
 }
 img.img-header {
   max-width: 100%;
   text-align: center;
+  margin-left: -15%;
 }
 .center {
   text-align: center;
@@ -222,9 +215,11 @@ img.img-header {
 ul.hint {
   text-transform: uppercase;
   list-style-type: none;
-  margin-left: 25%;
+  margin-left: 15%;
   font-weight: bold;
   font-family: sans-serif;
+  line-height: 175%;
+  font-size: 90%;
   color: #9f9a8b;
 }
 ul.hint li {
@@ -232,33 +227,42 @@ ul.hint li {
   background-size: 15px;
   background-repeat: no-repeat;
   background-position: 2.5px;
-  padding-left: 20px;
+  padding-left: 25px;
 }
-.tiles {
-  width: 100%;
+.main-header,
+.main-content {
+  padding: 20px 0;
 }
-.tile-1 {
-  width: calc(100% / 1);
+.main-content .search-bar {
+  width: calc(100% / 3 * 2);
+  position: relative;
 }
-.tile-2 {
-  width: calc(100% / 2);
+.search-bar {
+  display: inline-block;
 }
-.tile-3 {
-  width: calc(100% / 3);
+.search-bar input[type=text] {
+  float: right;
+  width: calc(100% - 64px);
+  height: 54px;
+  padding-left: 64px;
 }
-.tile-4 {
-  width: calc(100% / 4);
+.search-bar input[type=submit] {
+  float: left;
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  opacity: 0;
 }
-.tile-5 {
-  width: calc(100% / 5);
-}
-.tile-6 {
-  width: calc(100% / 6);
+.main-content .tile-button {
+  font-size: 20px;
+  padding: 15px 30px;
+  line-height: 54px;
+  text-transform: uppercase;
 }
 
-/* MOBILE */
-
-
+/*
+MOBILE
+*/
 
 @media screen and (max-width: 720px) {
   .only-pc {
@@ -314,9 +318,10 @@ ul.hint li {
     margin: 1em 0;
     font-size: 18px;
     display: inherit;
+	overflow-x: auto;
   }
 }
-@media screen and (min-width: 719px) {
+@media screen and (min-width: 721px) {
   .only-mobile {
     display: none;
   }
